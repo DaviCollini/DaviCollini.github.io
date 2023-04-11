@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Davi Collini</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,500;0,600;1,300&display=swap"
+      rel="stylesheet"
+    />
+     <script src="https://use.fontawesome.com/cb471740a3.js"></script> 
+     <link rel="stylesheet" href="assets/fontawesome-free-6.4.0-web/css/all.min.css">
+    
+    
+  </head>
+  <body>
+    <section class="header">
+      <nav>
+        <a href="index.html"><img src="assets/15a6b52a-2899-4a4a-b8ac-3f16a1467974.png" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hidemenu()"></i>
+          <ul>
+            <li><a href="">about</a></li>
+            <li><a href="">contact</a></li>
+            
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showmenu()"></i>
+      </nav>
+      <div class="text-box">
+        <h1>Davi Collini</h1>
+        <p>The Curriculum </p>
+        <a href="" class="hero-btn">Contact!</a>
+      </div>
+    </section>
+    <!--about1 -->
+
+    <section class="about1">
+      <h1>I'm a Programmer</h1>
+      <h1>Sou um Programador, algumas das skills</h1>
+      <div class="row">
+        <div class="about1-col">
+          
+          <i class="fa-brands fa-python fa-lg"></i>
+          <h3>Python</h3>
+          <p>
+            I'm focus on Python language, but not discarding any language to learn! 
+          </p>
+          <p>Sou focado na linguagem Python, mas não descarto nenhuma oportunidade de aprendizado!</p>
+          <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+        </div>
+        <div class="about1-col">
+          <i class="fa-brands fa-html5 fa-lg"></i>
+          <h3>HTML</h3>
+          <p>I know the basics and I make a clean code in HTML, study to improve!</p>
+          <p>Eu sei o básico e faço um código limpo em HTML, procurando sempre melhorar e aprender!</p>
+          <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+            <i class="fa-regular fa-star"></i>
+        </div>
+        
+        <div class="about1-col">
+          <i class="fa-brands fa-css3-alt fa-lg"></i>
+          <h3>CSS</h3>
+          <p>Always I try to make a clean project and most useful possible!</p>
+          <p>Sempre tento fazer um projeto limpo e o mais util possível</p>
+          <p></p>
+          <p></p> 
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+        </div>
+      </div>
+    </section>
+    <!--projects-->
+    <section class="projects">
+      <h1>The projects</h1>
+      <p>only some projects!</p>
+    </section>
+
+   
+    <!--    footer         -->
+    <section class="footer">
+      <h4>About me</h4>
+      <p>
+        This site is for everyone who contact me and show a little bit my projects 
+      </p>
+      <div class="icons">
+        <a href="https://www.linkedin.com/in/davi-collini-a2237a1a6/"><i class="fa-brands fa-linkedin fa-lg"></i></a>
+        <a href="https://github.com/DaviCollini"><i class="fa-brands fa-square-github fa-lg"></i></a>
+      </div>
+      <p>made by DZ</p>
+    </section>
+
+    <!--    JAVA toggle menu          -->
+    <script>
+      var navLinks = document.getElementById('navLinks')
+      function showmenu() {
+        navLinks.style.right = '0'
+      }
+      function hidemenu() {
+        navLinks.style.right = '-200px'
+      }
+    </script>
+  </body>
+</html>
