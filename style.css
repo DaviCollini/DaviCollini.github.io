@@ -4,6 +4,10 @@
   font-family: 'Poppins', sans-serif;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 .header {
   min-height: 100vh;
   width: auto;
@@ -255,4 +259,10 @@ h3 {
   margin: 0 13px;
   cursor: pointer;
   padding: 18px 0;
+}
+.contact h1 {
+  color: #000;
+  
+  font-size: 36px;
+  font-weight: 600;
 }
